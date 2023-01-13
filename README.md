@@ -1,3 +1,9 @@
+# Disclaimer
+
+I'm not the original author of Wikiless project. This is a clone of the original Wikiless repository on Codeberg, [orenom/wikiless](https://codeberg.org/orenom/wikiless), which is no longer available.
+
+There are only a few forks of this wonderful project existing on GitHub so I decided to preserve and maintain it.
+
 # Wikiless
 
 [wikiless.org](https://wikiless.org)
