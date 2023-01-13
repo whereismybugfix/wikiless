@@ -15,25 +15,20 @@ A free open source alternative Wikipedia front-end focused on privacy.
 * Prevents Wikipedia getting your IP address.
 * Self-hostable. Anyone can setup a private or public instance.
 
-XMR: 832ogRwuoSs2JGYg7wJTqshidK7dErgNdfpenQ9dzMghNXQTJRby1xGbqC3gW3GAifRM9E84J91VdMZRjoSJ32nkAZnaCEj
+Original author's XMR wallet: 832ogRwuoSs2JGYg7wJTqshidK7dErgNdfpenQ9dzMghNXQTJRby1xGbqC3gW3GAifRM9E84J91VdMZRjoSJ32nkAZnaCEj
 
 ## Instances
 
 [https://wikiless.org](https://wikiless.org) - Official instance
 
 Community instances:
-  - [https://wikiless.alefvanoon.xyz](https://wikiless.alefvanoon.xyz)
-  - [https://wikiless.sethforprivacy.com](https://wikiless.sethforprivacy.com) + [hidden server](http://dj2tbh2nqfxyfmvq33cjmhuw7nb6am7thzd3zsjvizeqf374fixbrxyd.onion)
   - [https://wiki.604kph.xyz](https://wiki.604kph.xyz)
-  - [https://wikiless.lunar.icu](https://wikiless.lunar.icu)
   - [https://wiki.froth.zone](https://wiki.froth.zone)
   - [https://wikiless.northboot.xyz](https://wikiless.northboot.xyz) + [hidden server](http://ybgg2evrcdz37y2qes23ff3wjqjdn33tthgoagi76vhxytu4mpxiz5qd.onion) + [I2P](http://wikiless.i2p)
   - [https://wikiless.tiekoetter.com](https://wikiless.tiekoetter.com)
   - [http://c2pese...onion](http://c2pesewpalbi6lbfc5hf53q4g3ovnxe4s7tfa6k2aqkf7jd7a7dlz5ad.onion) + [http://hflqp2...b32.i2p](http://hflqp2ejxygpj6cdwo3ogfieqmxw3b56w7dblt7bor2ltwk6kcfa.b32.i2p)
 
-## TODO
-
-* Make the mobile version better
+Feel free to create pull request with your own instance to add it here.
 
 ## Why I should use Wikiless instead of Wikipedia?
 
@@ -41,6 +36,9 @@ There are couple of reasons why you might want to use Wikiless:
 
 * Circumvent censorship (1)
 * You prevent Wikipedia getting your IP address (2)
+
+<details>
+  <summary>More details (click to expand)</summary>
 
 ### 1: Circumvent censorship
 
@@ -83,8 +81,6 @@ Non-Wikipedia related fun facts about the NSA:
 
 If you are like me, and you also like the NSA, feel free to contribute and add more fun facts!
 
-
-
 #### Sources
   
 \[1\]: https://www.aclu.org/files/natsec/nsa/20140722/Why%20Are%20We%20Interested%20in%20HTTP.pdf  
@@ -114,6 +110,7 @@ If you are like me, and you also like the NSA, feel free to contribute and add m
 [25]: https://theintercept.com/document/2014/03/20/hunt-sys-admins/  
 [26]: https://www.theguardian.com/world/2013/dec/17/merkel-compares-nsa-stasi-obama  
 
+</details>
 
 ## Installation
 
@@ -151,6 +148,6 @@ You can build a production image by running `docker build .` in the repo's root.
 For development, there's a `docker-compose.yml` that mounts the app code (for hot reload of code changes) and default config. Before running it, you need to install the dependencies:
 
 ```
-$ docker-compose run --rm web npm install --no-optionals
-$ docker-compose up
+$ docker compose run --rm web npm install --no-optionals
+$ docker compose up
 ```
