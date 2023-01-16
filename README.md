@@ -1,6 +1,6 @@
 # Disclaimer
 
-I'm not the original author of Wikiless project. This is a clone of the original Wikiless repository on Codeberg, [orenom/wikiless](https://codeberg.org/orenom/wikiless), which is no longer available.
+I'm, [@whereismybugfix](https://github.com/whereismybugfix), not the original author of Wikiless project. This is a clone of the original Wikiless repository on Codeberg, [orenom/wikiless](https://codeberg.org/orenom/wikiless), which is no longer available.
 
 There are only a few forks of this wonderful project existing on GitHub so I decided to preserve and maintain it.
 
@@ -27,8 +27,9 @@ Community instances:
   - [https://wikiless.northboot.xyz](https://wikiless.northboot.xyz) + [hidden server](http://ybgg2evrcdz37y2qes23ff3wjqjdn33tthgoagi76vhxytu4mpxiz5qd.onion) + [I2P](http://wikiless.i2p)
   - [https://wikiless.tiekoetter.com](https://wikiless.tiekoetter.com)
   - [http://c2pese...onion](http://c2pesewpalbi6lbfc5hf53q4g3ovnxe4s7tfa6k2aqkf7jd7a7dlz5ad.onion) + [http://hflqp2...b32.i2p](http://hflqp2ejxygpj6cdwo3ogfieqmxw3b56w7dblt7bor2ltwk6kcfa.b32.i2p)
+  - [https://wkl.frail.duckdns.org/](https://wkl.frail.duckdns.org/)
 
-Feel free to create pull request with your own instance to add it here.
+ℹ️ Feel free to create [pull request](https://github.com/whereismybugfix/wikiless/pulls) or [issue](https://github.com/whereismybugfix/wikiless/issues) with your own instance to add it here.
 
 ## Why I should use Wikiless instead of Wikipedia?
 
